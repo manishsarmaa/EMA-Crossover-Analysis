@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock EMA 10 Chart</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <h1 style="text-align:center;">Select a Stock to View EMA 10 & 20</h1>
+    
+    <form method="POST" style="text-align:center; margin-bottom: 20px;">
+        <label for="stock_symbol">Choose Stock:</label>
+        <select name="stock_symbol" id="stock_symbol">
+            {% for symbol in symbols %}
+                <option value="{{ symbol }}" {% if symbol == selected_symbol %} selected {% endif %}>{{ symbol }}</option>
+            {% endfor %}
+        </select>
+        <button type="submit">View Chart</button>
+    </form>
+
+    <div style="width:80%; margin:auto;">
+        {{ chart | safe }}
+    </div>
+</body>
+</html>
