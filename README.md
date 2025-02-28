@@ -22,6 +22,25 @@
 └── README.md       # Project documentation
 ```
 
+## 🖼 Screenshots
+
+📌 **Homepage with Stock Selection**
+
+![Homepage](Output/home-20years.png)
+
+📌 **Stock Selection**
+
+![Chart](Output/dropdown.png)
+
+📌 **2 Year Data**
+
+![Chart](Output/2years.png)
+
+📌 **2 Months Data**
+
+![Chart](Output/2months.png)
+
+
 ---
 ## 📦 Installation
 ### **1️⃣ Clone the Repository**
@@ -69,23 +88,6 @@ Response format:
   ]
 }
 ```
-
----
-## 🖼 Screenshots
-📌 **Homepage with Stock Selection**
-![Homepage](Output/home-20years.png)
-
-📌 **Stock Selection**
-![Chart](Output/dropdown.png)
-
-📌 **2 Year Data**
-![Chart](Output/2years.png)
-
-📌 **2 Months Data**
-![Chart](Output/2months.png)
-
-
-(*Make sure to save screenshots inside a `screenshots/` folder*)
 
 ---
 ## 📝 Future Enhancements
